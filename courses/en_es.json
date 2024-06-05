@@ -1,0 +1,58 @@
+{
+    "Language":"Spanish",
+    "From":"English",
+
+    "Classes":{
+        "Noun":{
+            "Number":{
+                "Singular":{
+                    "Class":{
+                        "Masculine":"o",
+                        "Feminine":"a",
+                        "Irregular":["e", "/C", "/V"]
+                    }
+                },
+                "Plural":{
+                    "Class":{
+                        "Masculine":"os",
+                        "Feminine":"as",
+                        "Irregular":["es", "/Ces", "/Ves"]
+                    }
+                }
+            }
+        }
+    },
+
+    "Dictionary":{
+        "hola":{
+            "Meaning":[ "hello" ],
+            "Class":"Expression",
+            "Sub-Class":"Greeting",
+            "Composition":{
+                "Complexity":"Simple",
+                "Base":[""]
+            },
+            "Article":""
+        },
+        "buenos días":{
+            "Meaning":[ "good morning" ],
+            "Class":"Expression",
+            "Sub-Class":"Greeting",
+            "Composition":{
+                "Complexity":"Compost",
+                "Base":["buenos", "días"]
+            },
+            "Article":""
+        },
+        "buenas noches":{
+            "Meaning":[ "good evening", "good night" ],
+            "Class":"Expression",
+            "Sub-Class":"Greeting",
+            "Composition":{
+                "Complexity":"Compost",
+                "Base":["buenas", "noches"]
+            },
+            "Article":""
+        }
+    }
+}
