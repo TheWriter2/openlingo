@@ -1,0 +1,23 @@
+{
+"name":"",
+"join_date":"",
+"courses":{
+    "en_es":{
+        "progress":{
+            "lesson_1":4
+        },
+        "vocabulary":{
+            "hola":{
+                "understanding":{
+                    "correct":5,
+                    "wrong":2
+                },
+                "application":{
+                    "correct":1,
+                    "wrong":4
+                }
+            }
+        }
+    }
+}
+}
